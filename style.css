@@ -11,18 +11,17 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  background-image: url(/public/img_fut/gimnasio\ futurista.webp);
-  background-size: 2000px;
+  background: linear-gradient(#0b45a3, #041131);
   color: white;
   font-size: 15px;
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: 'Kanit', sans-serif;
 }
 
 h1 {
-  background: linear-gradient(#041131, #0b45a3);
+  background: linear-gradient(#041131, #0b45a3, #041131);
   margin-bottom: 50px;
   margin-top: 30px;
   color: white;
@@ -38,9 +37,7 @@ legend {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#041131, #0b45a3);
   text-align: left;
-  color: white;
   font-weight: bold;
   font-variant: small-caps;
   font-size: 20px;
@@ -50,6 +47,7 @@ legend {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 30px;
+  background: linear-gradient(#041131, #0b45a3);
 }
 
 .cnd {
@@ -68,6 +66,8 @@ legend {
 fieldset {
   text-align: center;
   border: none;
+  background-image: url(/img_fut/gimnasio\ futurista.webp);
+  background-size: 2000px;
 }
 
 .mb-10 {
